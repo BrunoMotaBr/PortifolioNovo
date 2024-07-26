@@ -1,0 +1,22 @@
+.card{
+    width: 200px;
+    height: 250px;
+    padding: 1em 15px;
+    text-align: center;
+    margin: 1em 5px;
+    max-width: 250px;
+    cursor: pointer;
+}
+
+.card:hover{
+    opacity: 0.8;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 1em 5em;
+    align-items: center;
+    justify-content: center;
+}

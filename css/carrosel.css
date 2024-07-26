@@ -1,0 +1,39 @@
+.carrosel{
+    width: 90%;
+    margin: 5em 0;
+    background-color: #000014;
+    padding: 0.5em 1em;
+    border-radius: 16px;
+    color: #FFFFFF;
+    z-index: 0;
+}
+
+
+.carroselTexto{
+    background-color: #00002f;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagemCertificados{
+    overflow: hidden;
+    border-radius: 24px;
+    padding: 2em 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.imagemCertificado{
+    display: none;
+    border-radius: 64px;
+    max-width: 100%;
+
+}
+
+.ativo{
+    display: block;
+}

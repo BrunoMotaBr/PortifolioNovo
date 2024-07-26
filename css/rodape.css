@@ -1,0 +1,48 @@
+.rodape{
+    padding: 2.5em 1em;
+    background-color: #000014;
+    color: #E8E8FF;
+    border-top: black solid 6px;
+}
+
+.rodape section{
+    display: flex;
+}
+
+.rodape h5{
+    text-align: right;
+}
+
+.rodape img{
+    width: 40px;
+}
+
+.rodape ul{
+    width: 25%;
+    max-width: 25%;
+    min-width: 25%; 
+    margin: 0 0 0 0;
+    text-align: left;
+}
+
+.rodape ul li a:hover{
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.rodape ul li{
+    list-style: none;
+    padding: 0 0;
+    cursor: pointer;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.rodape ul li a{
+    text-decoration: none;
+    color: #E8E8FF;
+    opacity: 1;
+    transition: 1s;
+
+}
+
